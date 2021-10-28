@@ -1,0 +1,226 @@
+body{
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+}
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+.navbar{
+  background: transparent;
+}
+.nav-link{
+  font-size: 12px;
+}
+.banner-area{
+  background: url(../img/header-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.banner-content{
+  margin-top: -250px;
+}
+.banner-content h5{
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+.banner-content h1{
+  font-size: 72px;
+}
+.banner-content .light-button:hover{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.section-gap{
+  padding: 120px 0;
+}
+.video-left h6{
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.video-left p span{
+  color: black;
+  font-weight: 400;
+}
+.video-left .dark-button{
+  font-weight: 500;
+  font-size: 14px;
+}
+.video-left .dark-button:hover{
+ border: 1px solid #222222;
+ background-color: transparent;
+ color: #222222;
+}
+.video-right{
+  background: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url(../img/video-bg.png) no-repeat center;
+  background-size: cover;
+  height: 350px;
+}
+.top-course-area{
+  background-color: #f9f9ff;
+}
+.course-left .lnr, .course-right .lnr{
+  font-size: 30px;
+}
+.btn-gradient{
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+  background-image: linear-gradient(90deg, #235ee7 0%, #4ae7fa 100%);
+}
+.btn-gradient:hover{
+  color: #235ee7;
+  background: transparent;
+  border: 1px solid #235ee7;
+}
+.single-service{
+  background-color: #f9f9ff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.single-service:hover{
+  cursor: pointer;
+  box-shadow: 0px 20px 30px 0px rgba(35, 94, 231, 0.2);
+}
+.single-service h4{
+  transition: all 0.3s ease-in-out;
+}
+.single-service:hover h4{
+  color: #235ee7;
+}
+.unique-feature-area{
+  background-color: #04091e;
+}
+.single-unique-product{
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.single-unique-product .desc{
+  background-color: #f9f9ff;
+  border-radius: 10px;
+}
+.single-unique-product .desc h6{
+  color: #235ee7;
+  font-size: 18px;
+}
+.btn-unique-product{
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+}
+.btn-unique-product:hover{
+  color: white;
+  background-image: linear-gradient(90deg, #235ee7 0%, #4ae7fa 100%);
+}
+.single-review{
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: #f9f9ff;
+}
+.single-review:hover{
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 20px 30px 0px rgba(35, 94, 231, 0.2);
+}
+.single-review .star .checked{
+  color: orange;
+}
+.faq-area{
+  background: url(../img/faq-bg.jpg) center;
+  background-size: cover;
+}
+.accordion-header{
+  background-image: linear-gradient(90deg, #235ee7 0%, #4ae7fa 100%);
+}
+.btn:focus{
+  box-shadow: none;
+}
+.btn-accord{
+  color: white;
+}
+.btn-accord:hover{
+  color: white;
+  cursor: pointer;
+}
+.footer-area{
+  padding-top: 100px;
+  background-color: #04091e;
+}
+.footer-area h6{
+  font-size: 18px;
+}
+.single-footer-widget input{
+  font-size: 14px;
+  border: none;
+  width: 60% !important;
+  font-weight: 300;
+  background: #191919;
+  color: #777777;
+  border-radius: 0;
+  padding: 10px 18px;
+}
+.single-footer-widget input:focus{
+  background-color: #191919;
+  color: #495057;
+}
+.single-footer-widget .click-btn{
+  color: white;
+  border-radius: 0;
+  border: 0;
+  padding: 8px 12px;
+}
+.footer-social i{
+  color: #cccccc;
+}
+.footer-social i:hover{
+  color: transparent;
+  background-image: linear-gradient(90deg, #235ee7 0%, #4ae7fa 100%);
+  -webkit-background-clip: text;
+}
+
